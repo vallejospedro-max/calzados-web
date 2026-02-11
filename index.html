@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tienda de Calzados</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1 class="logo">CALZADOS URBAN</h1>
+    <nav>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Zapatillas urbanas y deportivas</h2>
+    <p>Nike · Puma · Adidas · Más</p>
+    <a class="btn" href="https://wa.me/595XXXXXXXXX" target="_blank">
+      Comprar por WhatsApp
+    </a>
+  </section>
+
+  <!-- MARCAS -->
+  <section class="marcas">
+    <span>Nike</span>
+    <span>Puma</span>
+    <span>Adidas</span>
+    <span>Reebok</span>
+    <span>New Balance</span>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section id="catalogo" class="catalogo">
+    <h2>Catálogo</h2>
+
+    <div class="productos">
+
+      <div class="producto">
+        <img src="assets/nike1.jpg" alt="Nike Air Force">
+        <h3>Nike Air Force 1</h3>
+        <p>Gs. 750.000</p>
+        <button onclick="whatsapp('Nike Air Force 1')">
+          Consultar
+        </button>
+      </div>
+
+      <div class="producto">
+        <img src="assets/puma1.jpg" alt="Puma RS-X">
+        <h3>Puma RS-X</h3>
+        <p>Gs. 680.000</p>
+        <button onclick="whatsapp('Puma RS-X')">
+          Consultar
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="nosotros">
+    <h2>Sobre nosotros</h2>
+    <p>
+      Somos una tienda online dedicada a la venta de zapatillas originales,
+      enfocada en estilo, comodidad y atención directa por WhatsApp.
+    </p>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <a class="btn" href="https://wa.me/595XXXXXXXXX" target="_blank">
+      Escribinos por WhatsApp
+    </a>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Calzados Urban</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
