@@ -23,10 +23,10 @@ body {
   color: #111;
 }
 
-.hero {
-  padding: 80px 20px;
-  text-align: center;
-  background: #f5f5f5;
+.hero img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 .btn {
@@ -90,3 +90,4 @@ body {
   background: #000;
   color: #fff;
 }
+
