@@ -25,6 +25,10 @@ body {
   color: #fff;
 }
 
+.header {
+  margin-bottom: 40px;
+}
+
 .brand {
   display: flex;
   align-items: center;
