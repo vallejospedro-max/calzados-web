@@ -48,7 +48,8 @@ body {
 }
 
 .hero {
-  margin-top: 100px;
+  margin-top: 40px;
+  background: red;
 }
 
 .btn {
@@ -112,6 +113,7 @@ body {
   background: #000;
   color: #fff;
 }
+
 
 
 
