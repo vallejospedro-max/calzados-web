@@ -10,17 +10,19 @@ body {
   color: #111;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  border-bottom: 1px solid #eee;
-}
-
 .header a {
   margin-left: 15px;
   text-decoration: none;
   color: #111;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: #f2f2f2;
+  transition: 0.3s;
+}
+
+.header a:hover {
+  background: #000;
+  color: #fff;
 }
 
 .hero img {
@@ -90,6 +92,7 @@ body {
   background: #000;
   color: #fff;
 }
+
 
 
 
