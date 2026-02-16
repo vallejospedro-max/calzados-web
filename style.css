@@ -44,10 +44,7 @@ body {
   width: 100%;
   max-height: 250px;
   object-fit: cover;
-}
-
-.hero {
-  margin-bottom:200px;
+  margin-bottom: 40px;
 }
 
 .btn {
@@ -111,6 +108,7 @@ body {
   background: #000;
   color: #fff;
 }
+
 
 
 
