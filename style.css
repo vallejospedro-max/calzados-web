@@ -191,9 +191,10 @@ body {
     font-size: 14px;
   }
 
-  .hero img {
-    max-height: 250px;
-  }
+.hero img {
+  height: 240px;
+  object-fit: cover;
+}
 
   .hero h2 {
     font-size: 22px;
@@ -204,6 +205,7 @@ body {
     gap: 15px;
   }
 }
+
 
 
 
