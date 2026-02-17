@@ -72,6 +72,7 @@ body {
   font-size: 28px;
   line-height: 1.1;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .hero p {
@@ -208,6 +209,7 @@ body {
     gap: 15px;
   }
 }
+
 
 
 
