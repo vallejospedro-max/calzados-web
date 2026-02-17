@@ -30,7 +30,7 @@ body {
 
 .brand img {
   width: 180px;
-  height: 200px;
+  height: 180px;
   object-fit: contain;
 }
 
@@ -204,6 +204,7 @@ body {
     gap: 15px;
   }
 }
+
 
 
 
