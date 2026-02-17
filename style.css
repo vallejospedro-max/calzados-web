@@ -59,8 +59,6 @@ body {
   background: #fff;
   padding-top: 30px;
   text-align: center;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .hero img {
@@ -73,6 +71,7 @@ body {
 .hero h2 {
   font-size: 28px;
   line-height: 1.1;
+  margin-top: 40px;
 }
 
 .hero p {
@@ -95,12 +94,14 @@ body {
 
 /* ================= MARCAS ================= */
 
-.marcas {
+.marcas{
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 40px 20px;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 30px 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 /* ================= CATALOGO ================= */
@@ -207,6 +208,7 @@ body {
     gap: 15px;
   }
 }
+
 
 
 
