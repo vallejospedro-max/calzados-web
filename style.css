@@ -19,7 +19,7 @@ body {
   padding: 20px;
   background: #fff;
   border-bottom: 1px solid #eee;
-  margin-bottom: 40px; /* separación clara */
+  margin-bottom: 10px; /* separación clara */
 }
 
 .brand {
@@ -204,6 +204,7 @@ body {
     gap: 15px;
   }
 }
+
 
 
 
