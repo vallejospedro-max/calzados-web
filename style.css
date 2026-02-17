@@ -192,7 +192,7 @@ body {
   }
 
   .hero img {
-    max-height: 160px;
+    max-height: 250px;
   }
 
   .hero h2 {
@@ -204,6 +204,7 @@ body {
     gap: 15px;
   }
 }
+
 
 
 
