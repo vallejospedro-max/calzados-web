@@ -66,6 +66,7 @@ body {
   max-height: 650px;
   object-fit: cover;
   border-radius: 0px;
+  margin-bottom: 60px;
 }
 
 .hero h2 {
@@ -208,6 +209,7 @@ body {
     gap: 15px;
   }
 }
+
 
 
 
