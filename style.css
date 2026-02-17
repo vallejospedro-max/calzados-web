@@ -57,7 +57,10 @@ body {
 
 .hero {
   background: #fff;
-  padding-top: 30px; /* franja blanca visible */
+  padding-top: 30px;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .hero img {
@@ -68,12 +71,12 @@ body {
 }
 
 .hero h2 {
-  margin-top: 20px;
+  font-size: 28px;
+  line-height: 1.1;
 }
 
 .hero p {
-  margin-top: 8px;
-  color: #555;
+  font-size: 16px;
 }
 
 .btn {
@@ -83,8 +86,7 @@ body {
   background: #000;
   color: #fff;
   text-decoration: none;
-  border-radius: 5px;
-  transition: 0.3s;
+  border-radius: 12px;
 }
 
 .btn:hover {
@@ -205,6 +207,7 @@ body {
     gap: 15px;
   }
 }
+
 
 
 
